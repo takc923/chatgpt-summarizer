@@ -25,4 +25,8 @@ A Chrome extension that summarizes web pages using ChatGPT.
 
 - `manifest.json` - Chrome extension configuration file
 - `background.js` - Button click handler
-- `icon*.png` - Extension icons (16x16, 32x32, 48x48, 128x128)
+- `icons/` - Extension icon files
+  - `icon16.png` - 16x16 icon
+  - `icon32.png` - 32x32 icon
+  - `icon48.png` - 48x48 icon
+  - `icon128.png` - 128x128 icon
