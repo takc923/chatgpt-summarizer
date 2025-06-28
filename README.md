@@ -1,27 +1,27 @@
 # ChatGPT Summarizer Chrome Extension
 
-ChatGPTを使用してWebページを要約するChrome拡張機能です。
+A Chrome extension that summarizes web pages using ChatGPT.
 
-## 機能
+## Features
 
-- ツールバーの拡張ボタンをクリックすると、現在開いているページのURLをChatGPTに送信します
-- ChatGPTのo4-miniモデルを使用して日本語で要約を生成します
+- Click the extension button in the toolbar to send the URL of the current page to ChatGPT
+- Generates summaries in Japanese using ChatGPT's o4-mini model
 
-## インストール方法
+## Installation
 
-1. Chromeで `chrome://extensions/` を開きます
-2. 右上の「デベロッパーモード」をONにします
-3. 「パッケージ化されていない拡張機能を読み込む」をクリックします
-4. このフォルダを選択します
+1. Open `chrome://extensions/` in Chrome
+2. Turn ON "Developer mode" in the top right
+3. Click "Load unpacked"
+4. Select this folder
 
-## 使い方
+## Usage
 
-1. 要約したいWebページを開きます
-2. ツールバーの拡張機能アイコン（白い"S"）をクリックします
-3. ChatGPTが新しいタブで開き、ページの要約を生成します
+1. Open the web page you want to summarize
+2. Click the extension icon (white "S") in the toolbar
+3. ChatGPT will open in a new tab and generate a summary of the page
 
-## ファイル構成
+## File Structure
 
-- `manifest.json` - Chrome拡張機能の設定ファイル
-- `background.js` - ボタンクリック時の処理
-- `icon*.png` - 拡張機能のアイコン（16x16, 32x32, 48x48, 128x128）
+- `manifest.json` - Chrome extension configuration file
+- `background.js` - Button click handler
+- `icon*.png` - Extension icons (16x16, 32x32, 48x48, 128x128)
