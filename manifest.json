@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "chatgpt-summary",
+  "name": "chatgpt-summarizer",
   "version": "1.0",
   "description": "Summarize web pages using ChatGPT",
   "permissions": [

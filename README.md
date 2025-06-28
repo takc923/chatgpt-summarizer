@@ -1,4 +1,4 @@
-# ChatGPT Summary Chrome Extension
+# ChatGPT Summarizer Chrome Extension
 
 ChatGPTを使用してWebページを要約するChrome拡張機能です。
 
