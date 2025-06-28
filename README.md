@@ -6,6 +6,7 @@ A Chrome extension that summarizes web pages using ChatGPT.
 
 - Click the extension button in the toolbar to send the URL of the current page to ChatGPT
 - Generates summaries in Japanese using ChatGPT's o4-mini model
+- No API key required - works directly with ChatGPT web interface
 
 ## Installation
 
