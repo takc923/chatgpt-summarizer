@@ -9,7 +9,7 @@ ${currentUrl}
 - 章・節ごとの要約：
     - 記事内の章や節（見出し構造）に沿って、それぞれの内容を簡潔にまとめてください。
     - 各見出しを太字にし、要約文は段落で整理してください。`);
-  const chatGptUrl = `https://chat.openai.com/?q=${prompt}`;
+  const chatGptUrl = `https://chatgpt.com/g/g-p-69148a0731d88191876db4c616ca8004/project?prompt=${prompt}`;
 
   chrome.tabs.create({
     url: chatGptUrl,
