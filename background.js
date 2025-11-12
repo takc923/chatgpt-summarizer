@@ -1,7 +1,9 @@
 chrome.action.onClicked.addListener((tab) => {
   const currentUrl = tab.url;
-  const prompt = encodeURIComponent(`次のURLの記事を要約してください。
-${currentUrl}
+  const pageTitle = tab.title || "タイトルなし";
+  const prompt = encodeURIComponent(`次の記事を要約してください。
+タイトル：${pageTitle}
+URL：${currentUrl}
 
 要約は次の構成でお願いします。
 
