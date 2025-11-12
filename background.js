@@ -10,6 +10,10 @@ ${currentUrl}
     - 記事内の章や節（見出し構造）に沿って、それぞれの内容を簡潔にまとめてください。
     - 各見出しを太字にし、要約文は段落で整理してください。`);
   const chatGptUrl = `https://chat.openai.com/?q=${prompt}`;
-  
-  chrome.tabs.create({ url: chatGptUrl });
+
+  chrome.tabs.create({
+    url: chatGptUrl,
+    index: tab.index + 1,
+    openerTabId: tab.id,
+  });
 });
